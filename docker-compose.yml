@@ -5,12 +5,8 @@ services:
     build:
       dockerfile: docker/app/Dockerfile
       context: .
-      # Inherited from .env file
       args:
         - UID=$UID
         - GID=$GID
     volumes:
-      # Forward current directory into docker container.
-      # We forward it into workspace, so our project directory won't be cluttered
-      # by ~ (HOME) .dotfiles
       - .:/home/vscode/workspace
