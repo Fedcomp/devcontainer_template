@@ -10,8 +10,10 @@ but you can adapt the approach to any linux distro.
 
 - Install vscode [remote-containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - Clone this repository to some directory
+- (OPTIONAL!) Execute $ ```git checkout short```
+  so you dont have to remove all comments, docs and other, quickstart.
 - Remove .git directory from cloned directory
-- execute $ ```docker-compose up -d```
+- Execute $ ```docker-compose up -d```
 - Start vscode in cloned directory
 - You should see next popup:
 
