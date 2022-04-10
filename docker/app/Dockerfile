@@ -2,9 +2,6 @@ FROM ubuntu:20.04
 
 RUN apt-get update
 
-# This snippet makes sure your
-# vscode in container will create/edit
-# files with same permissions as your host user
 ARG UID
 ARG GID
 RUN useradd vscode -u $UID -g $GID -m
