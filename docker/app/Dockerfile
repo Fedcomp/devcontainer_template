@@ -7,6 +7,7 @@ RUN apt-get update
 # files with same permissions as your host user
 ARG UID
 ARG GID
+RUN groupadd -g $GID vscode
 RUN useradd vscode -u $UID -g $GID -m
 USER vscode
 
