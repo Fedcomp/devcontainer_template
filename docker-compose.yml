@@ -8,5 +8,6 @@ services:
       args:
         - UID=$UID
         - GID=$GID
+    init: true
     volumes:
       - .:/home/vscode/workspace
