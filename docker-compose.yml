@@ -9,6 +9,9 @@ services:
       args:
         - UID=$UID
         - GID=$GID
+    # Use docker init process to speedup
+    # container closing on hang processes
+    init: true
     volumes:
       # Forward current directory into docker container.
       # We forward it into workspace, so our project directory won't be cluttered
