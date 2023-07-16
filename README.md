@@ -17,23 +17,23 @@ but you can adapt the approach to any linux distro.
 - Start vscode in cloned directory
 - You should see next popup:
 
-![Folder contains a dev container configuration file](./docs/remote-containers-popup.png)
+![Folder contains a dev container configuration file](./.github/docs/remote-containers-popup.png)
 - Just click "Reopen in Container".
 
 ### If for some reason popup is not showing up
 
-![right left green button in vscode](./docs/remote-containers-inactive.png)
+![right left green button in vscode](./.github/docs/remote-containers-inactive.png)
 
 Click that green button in bottom left corner and you will see next menu:
 
-![reopen in container vscode menu](./docs/remote-containers-menu.png)
+![reopen in container vscode menu](./.github/docs/remote-containers-menu.png)
 
-And just press Enter (on reopen in container menu element). You should see terminal poping up ![vscode setup terminal](./docs/remote-containers-setup-terminal.png)
+And just press Enter (on reopen in container menu element). You should see terminal poping up ![vscode setup terminal](./.github/docs/remote-containers-setup-terminal.png)
 
 Then bottom left of vscode should display
 remote-containers extension is active.
 
-![Dev Container: VSCode in Docker Compose](./docs/remote-containers-active.png)
+![Dev Container: VSCode in Docker Compose](./.github/docs/remote-containers-active.png)
 
 ## Why?
 
