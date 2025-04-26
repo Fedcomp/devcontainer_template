@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json
 {
 	"name": "VSCode in Docker Compose",
-	"dockerComposeFile": "docker-compose.yml",
+	"dockerComposeFile": "compose.yml",
 	"service": "app",
 	"workspaceFolder": "/home/vscode/workspace",
 	"remoteUser": "vscode",
