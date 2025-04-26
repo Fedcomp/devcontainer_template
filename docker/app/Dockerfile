@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 RUN apt-get update
 
@@ -7,6 +7,7 @@ RUN apt-get update
 # files with same permissions as your host user
 ARG UID
 ARG GID
+RUN userdel ubuntu
 RUN groupadd -g $GID vscode
 RUN useradd vscode -u $UID -g $GID -m
 USER vscode
